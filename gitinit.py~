@@ -17,8 +17,8 @@ read -p "Enter the directory you want to add to .gitignore: " IGNORE_DIR
 # Create .gitignore file if it doesn't exist and add the directory
 echo "$IGNORE_DIR/" >> .gitignore
 
-# Repository URL (using SSH)
-REPO_URL="git@github.com:vladimirovertheworld/ntpbrowser.git"
+# Repository URL
+REPO_URL="https://github.com/vladimirovertheworld/ntpbrowser.git"
 
 # Initialize Git repository
 git init
